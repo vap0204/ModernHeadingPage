@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(15,1fr);
+    gap:0.8rem 0.8rem;
+    grid-auto-rows: 7rem;
+  
+}
+.box{
+    padding:1.5rem;
+    text-align: center;
+}
+.box1{
+    grid-row: 2/4;
+    grid-column: 2/5;
+    text-align: left;
+}
+.box2{
+    grid-row: 1/5;
+    grid-column:5/15;
+    background:url('7-1.jpg');
+}
+.box3{
+    grid-row: 5/6;
+    grid-column: 5/15;
+}
+.box3 p{
+    padding: 0rem 1rem;
+}
+.box4{
+    grid-row: 3/6;
+    grid-column: 2/3;
+    background-color: rgb(216, 140, 0);
+}
